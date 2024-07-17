@@ -257,10 +257,14 @@ section.formcontato{
 }
 
 .formcontato__input, .formcontato__textarea{
-    width: 100%;
+    width: 90%;
     padding: 10px 5px;
     border: none;
     outline: none;
+}
+
+.falta__valor{
+    border: 3px solid red;
 }
 
 .formcontato__input:hover, .formcontato__textarea:hover{
